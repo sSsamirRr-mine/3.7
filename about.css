@@ -1,0 +1,157 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.conteiner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    /* gap: 800px; */
+    height: 720px;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.head {
+    display: flex;
+    gap: 800px;
+}
+
+footer {
+    background: #F3D7B7;
+
+}
+
+.head-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 135px;
+    position: relative;
+}
+
+.left--one {
+    display: flex;
+    flex-direction: row;
+    width: 372px;
+    height: 85.37px;
+    margin-right: 304px;
+    text-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 74px;
+}
+
+.left--one>p {
+    width: 372px;
+    height: 85.37px;
+    text-wrap: wrap;
+    flex-wrap: wrap;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.left--one>h1 {
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: left;
+    width: 264px;
+    height: 77.14px;
+
+}
+
+.img-one {
+    width: 660px;
+    height: 390px;
+
+}
+
+.box>img {
+    padding-bottom: 200px;
+}
+
+.white {
+    margin-bottom: 260px;
+    margin-top: 160px;
+}
+
+.right>h2 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56.25px;
+    text-align: left;
+
+}
+
+.right>p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.coment {
+    background: #C99B67;
+    height: 610px;
+    color: white;
+    padding-top: 450px;
+    /* padding-bottom: 109px; */
+
+}
+
+.come>.left>h2 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58.59px;
+    text-align: left;
+
+}
+
+.come {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.come>.left>p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.rights {
+    display: flex;
+    justify-content: end;
+    width: 566px;
+    height: 552px;
+    position: absolute;
+    top: -600px;
+    right: 0;
+}
+.logos--img{
+left: 558px;
+}
